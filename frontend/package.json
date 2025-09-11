@@ -1,0 +1,60 @@
+{
+  "name": "mindmap-frontend",
+  "version": "1.0.0",
+  "description": "React frontend for mind map application",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.6.2",
+    "date-fns": "^2.30.0",
+    "framer-motion": "^10.16.16",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-color": "^2.19.3",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.48.2",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.12.0",
+    "react-router-dom": "^6.20.1",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.8.0",
+    "socket.io-client": "^4.7.4",
+    "styled-components": "^6.1.1"
+  },
+  "scripts": {
+    "start": "cross-env DANGEROUSLY_DISABLE_HOST_CHECK=true react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.5.1",
+    "cross-env": "^10.0.0",
+    "jest": "^27.5.1"
+  },
+  "proxy": "http://localhost:5001"
+}
