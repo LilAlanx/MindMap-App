@@ -223,3 +223,5 @@ const MindMapCard = ({ mindmap, viewMode }) => {
 
 export default MindMapCard;
 
+
+
