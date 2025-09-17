@@ -167,7 +167,7 @@ const About = () => {
       <AboutHeader>
         <AboutTitle>About MindMap</AboutTitle>
         <AboutSubtitle>
-          Transformando ideas en mapas mentales visuales e interactivos
+          Transforming ideas into visual and interactive mind maps
         </AboutSubtitle>
       </AboutHeader>
 
@@ -176,11 +176,11 @@ const About = () => {
           <SectionIcon>
             <FiTarget />
           </SectionIcon>
-          <SectionTitle>Nuestra Misión</SectionTitle>
+          <SectionTitle>Our Mission</SectionTitle>
           <SectionDescription>
-            Creemos que las mejores ideas nacen cuando pueden ser visualizadas y organizadas de manera clara. 
-            MindMap es una plataforma diseñada para ayudarte a transformar tus pensamientos complejos en 
-            mapas mentales intuitivos y colaborativos.
+            We believe that the best ideas are born when they can be visualized and organized clearly. 
+            MindMap is a platform designed to help you transform your complex thoughts into 
+            intuitive and collaborative mind maps.
           </SectionDescription>
         </AboutSection>
 
@@ -188,11 +188,10 @@ const About = () => {
           <SectionIcon>
             <FiZap />
           </SectionIcon>
-          <SectionTitle>Innovación en Acción</SectionTitle>
+          <SectionTitle>Innovation in Action</SectionTitle>
           <SectionDescription>
-            Utilizamos las últimas tecnologías web para ofrecer una experiencia fluida y responsiva. 
-            Nuestra plataforma combina la simplicidad de uso con potentes herramientas de colaboración 
-            en tiempo real.
+            We use the latest web technologies to deliver a smooth and responsive experience. 
+            Our platform combines ease of use with powerful real-time collaboration tools.
           </SectionDescription>
         </AboutSection>
 
@@ -200,10 +199,10 @@ const About = () => {
           <SectionIcon>
             <FiUsers />
           </SectionIcon>
-          <SectionTitle>Colaboración Real</SectionTitle>
+          <SectionTitle>Real Collaboration</SectionTitle>
           <SectionDescription>
-            Trabaja en equipo como nunca antes. Nuestros mapas mentales permiten colaboración en tiempo real, 
-            donde múltiples usuarios pueden editar, comentar y construir ideas juntos, sin importar dónde se encuentren.
+            Work as a team like never before. Our mind maps enable real-time collaboration, 
+            where multiple users can edit, comment, and build ideas together, no matter where they are located.
           </SectionDescription>
         </AboutSection>
 
@@ -211,11 +210,11 @@ const About = () => {
           <SectionIcon>
             <FiShield />
           </SectionIcon>
-          <SectionTitle>Seguridad y Privacidad</SectionTitle>
+          <SectionTitle>Security and Privacy</SectionTitle>
           <SectionDescription>
-            Tu privacidad es nuestra prioridad. Implementamos las mejores prácticas de seguridad para 
-            proteger tus datos y garantizar que tus ideas permanezcan seguras y accesibles solo para ti 
-            y las personas que elijas.
+            Your privacy is our priority. We implement the best security practices to 
+            protect your data and ensure that your ideas remain safe and accessible only to you 
+            and the people you choose.
           </SectionDescription>
         </AboutSection>
       </AboutContent>
@@ -223,11 +222,11 @@ const About = () => {
       <TeamSection>
         <TeamTitle>
           <FiUsers />
-          Nuestro Equipo
+          Our Team
         </TeamTitle>
         <SectionDescription>
-          Conoce al talentoso equipo detrás de MindMap, desarrolladores apasionados por crear 
-          herramientas que potencien la creatividad y la colaboración.
+          Meet the talented team behind MindMap, developers passionate about creating 
+          tools that enhance creativity and collaboration.
         </SectionDescription>
         <TeamMembers>
           {teamMembers.map((member, index) => (
