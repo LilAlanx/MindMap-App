@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import { FiHome, FiPlus, FiSettings, FiX } from 'react-icons/fi';
+import { FiHome, FiPlus, FiSettings, FiX, FiInfo } from 'react-icons/fi';
 
 const SidebarContainer = styled.aside`
   position: fixed;
@@ -156,6 +156,12 @@ const Sidebar = ({ isOpen, onClose }) => {
               <NavLinkStyled to="/profile" onClick={onClose}>
                 <FiSettings />
                 Profile
+              </NavLinkStyled>
+            </NavItem>
+            <NavItem>
+              <NavLinkStyled to="/about" onClick={onClose}>
+                <FiInfo />
+                About Us
               </NavLinkStyled>
             </NavItem>
           </NavList>

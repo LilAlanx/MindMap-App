@@ -7,6 +7,7 @@ import Register from './pages/Auth/Register';
 import Dashboard from './pages/Dashboard/Dashboard';
 import MindMapEditor from './pages/MindMapEditor/MindMapEditor';
 import Profile from './pages/Profile/Profile';
+import About from './pages/About/About';
 import LoadingSpinner from './components/UI/LoadingSpinner';
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
         <Route path="dashboard" element={<Dashboard />} />
         <Route path="mindmap/:id" element={<MindMapEditor />} />
         <Route path="profile" element={<Profile />} />
+        <Route path="about" element={<About />} />
       </Route>
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
@@ -41,6 +43,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
